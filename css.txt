@@ -1,0 +1,52 @@
+CSS:
+inline styling, external styling, internal styling
+
+selectors --> class selectors , id selectors, attribute selectors, universal selectors
+
+colorhunt website
+
+color properties --> background-color , color
+font property --> (font-weight:bold) , font-size, font-family, (text-align property: right,left,centre)
+
+font-size
+1px = 1/96th inches
+1pt = 1/72nd inches
+1em = 100% of the parent (eg: 2em --> 2*parent font-size)
+1rem = 100% of the root
+
+fonts.google.com
+
+
+Box property
+
+Border : 10px(thickness) solid(margin type) black(color)
+border-top : 0px;
+border-width: 0px(top) 10px(right) 20px(bottom) 30px(left)
+
+padding: 20px (inside the box the space between content and the border
+
+margin: 10px (outside of the border)
+
+
+chrome extension : Pesticide for Chrome to easily identify the border boxes in our web page for debugging
+
+specificity in the css row is(priority level) : Id --> attribute --> class --> element
+priority level --> inline --> internal --> external
+
+
+combining css selectors
+1.group : eg(selector,selector) by separating the selectors with commas
+2.child : eg(selector(P) > selector(C)) this css will apply to the selector wnd it's child
+3.descendant : eg(ancester(selector) descendent(selector))
+
+
+CSS positioning
+1.Absolute :position relative to nearest positioned ancestor or top left corner webpage
+2.relative : from default to (left :50px top:50px)
+3.fixed : position relative to top left corner of browser window
+4.static : default flow 
+
+
+
+
+
